@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+}
+p {
+  margin: 5px 0px 0px;
+  padding: 0px;
+}
+
+.profile {
+  width: 300px;
+}
+
+.description {
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 0px;
+  padding: 0px;
+
+  text-align: center;
+  background-color: rgb(235, 233, 233);
+}
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 16px) / 3);
+
+  border: 1px solid black;
+}
+.stats > li:not(:last-child) {
+  margin-right: 5px;
+}
