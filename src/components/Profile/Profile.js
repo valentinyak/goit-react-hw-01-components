@@ -36,15 +36,6 @@ const Profile = ({ name, tag, location, avatar, stats }) => {
 
 export default Profile;
 
-// Painting.propTypes = {
-//   imageUrl: PropTypes.string.isRequired,
-//   title: PropTypes.string.isRequired,
-//   profileUrl: PropTypes.string.isRequired,
-//   author: PropTypes.string.isRequired,
-//   price: PropTypes.number.isRequired,
-//   quantity: PropTypes.number.isRequired,
-// };
-
 Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
