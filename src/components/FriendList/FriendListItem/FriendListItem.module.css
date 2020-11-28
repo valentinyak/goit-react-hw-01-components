@@ -1,0 +1,29 @@
+.status {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+
+  border-radius: 5px;
+  font-size: 1px;
+}
+
+.item {
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  height: 80px;
+
+  /* border: 1px solid black; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.name {
+  margin: 0px;
+}
+
+.avatar {
+  margin-right: 10px;
+}
