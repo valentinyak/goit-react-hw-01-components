@@ -1,0 +1,28 @@
+.statistics {
+  width: 300px;
+  margin-top: 20px;
+
+  border: 2px solid black;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.statList {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+
+  border-top: 1px solid black;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc((100%-20px) / 5);
+  height: 70px;
+}
