@@ -3,7 +3,7 @@ import s from './FriendListItem.module.css';
 
 export default function FriendListItem({ avatar, name, isOnline = false, id }) {
   return (
-    <li className={s.item} key={id}>
+    <li className={s.item}>
       <span
         className={s.status}
         style={
@@ -24,5 +24,4 @@ FriendListItem.propTypes = {
   avatar: PropTypes.string,
   name: PropTypes.string,
   isOnline: PropTypes.bool.isRequired,
-  id: PropTypes.number.isRequired,
 };
